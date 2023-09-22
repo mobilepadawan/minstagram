@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"); 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+
+html {
+    color-scheme: dark;
+    padding: 10px;
+}
+
+video {
+    width: 70%;
+}
+
+.contenedor {
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
+}
+
+#video {
+    width: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover; 
+}
+
+.otros-elementos {
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+    border: 1px solid lightblue;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+p, span, strong, li {
+    font-size: 2rem;
+}
+
+li#hardwareLink, li#mapasLink, li#formularioLink, li#navigatorLink {
+    cursor: pointer;
+}
+
+.card-image {
+    width: 100%;
+    max-width: 360px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 1px 6px 6px grey;
+
+    & h2 {
+        font-size: 20px;
+        margin-top: 6px;
+    }
+
+    & img {
+        text-align: center;
+        width: 100% !important;
+    }
+    
+    & p {
+        margin-top: 8px;
+        font-size: 11px;
+    }
+}
+
+.capturar-foto {
+    text-align: center;
+    margin: 0 auto !important;
+
+    & button {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin: 0 15px;
+    }
+
+    & .image-container {
+        text-align: center;
+        display: block;
+    }
+
+    & img {
+        margin: 0 auto !important;
+        margin-bottom: 10px;
+        max-width: 300px;
+    }
+
+    & input {
+        font-size: large;
+        border: 0px;
+        border-bottom: 1px solid;
+        border-radius: 0px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+        width: 340px;
+    }
+}
+
+.titulo {
+    font-size: 4rem;
+    display: inline;
+}
+
+.capturar {
+    float: right !important;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.button-publicar {
+    background-color: #92d36e;
+    border-color: green;
+} 
+
+.button-cancelar {
+    background-color: #ff8a84;
+    border-color: #ff4137;
+}
+
